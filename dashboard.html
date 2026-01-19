@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FERD Research Consult | Dashboard</title>
+
+  <!-- Dashboard Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dashboard-page">
+
+  <!-- NAVIGATION BAR -->
+  <nav class="dashboard-nav">
+    <div class="brand">
+      <h1>FERD Research Consult</h1>
+    </div>
+
+    <div class="menu-container">
+      <button type="button" id="menuToggle">Menu</button>
+      <button type="button" id="logoutBtn">Logout</button>
+
+      <!-- Menu Dropdown -->
+      <div id="servicesMenu" class="services-menu">
+        <h3 class="menu-heading">Our Offered Services</h3>
+        <ul class="services-list">
+          <li>Thesis and Dissertation</li>
+          <li>Research Paper / Essay Writing</li>
+          <li>Formatting and Citation Assistance</li>
+          <li>Case Studies and Lab Reports</li>
+          <li>PowerPoint Presentation</li>
+          <li>Book and Literature Review</li>
+          <li>Proofreading and Editing</li>
+          <li>Plagiarism Checking</li>
+          <li>Data Analysis and Entry</li>
+        </ul>
+
+        <ul class="menu-actions">
+          <li><a href="#" id="makeComplaint">Make a Complaint</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN DASHBOARD CONTENT -->
+  <main class="dashboard-content">
+
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+      <h2>Welcome, <span id="userName">User</span></h2>
+      <p>
+        This is your FERD Research Consult dashboard.
+        From here, you can manage your projects, track progress,
+        and access our professional research services.
+      </p>
+    </section>
+
+    <!-- Quick Action Cards -->
+    <section class="cards-section">
+
+      <!-- Your Projects -->
+      <article class="card" id="projectsCard">
+        <h3>Your Projects</h3>
+        <p>View, manage, and track all ongoing research work, dissertations, and assignments.</p>
+      </article>
+
+      <!-- Notifications -->
+      <article class="card" id="notificationsCard">
+        <h3>Notifications</h3>
+        <p>Stay updated with important messages, deadlines, and service-related announcements.</p>
+      </article>
+
+      <!-- Analytics & Progress -->
+      <article class="card" id="analyticsCard">
+        <h3>Analytics & Progress</h3>
+        <p>Monitor completed tasks, revisions, and overall progress of your submitted work.</p>
+      </article>
+
+      <!-- Place New Order -->
+      <article class="card" id="placeOrderCard">
+        <h3>Place New Order</h3>
+        <p>Submit a new research order quickly and track it here.</p>
+      </article>
+
+    </section>
+  </main>
+
+  <!-- =========================
+       MODAL
+       ========================= -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Dashboard Scripts -->
+  <script src="script.js"></script>
+
+</body>
+</html>

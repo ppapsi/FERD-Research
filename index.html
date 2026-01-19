@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FERD Research Consult | Login</title>
+
+  <!-- Link to CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+
+  <div class="login-container">
+    <div class="brand">
+      <h1>FERD Research Consult</h1>
+      <p>Secure Client & Analyst Portal</p>
+    </div>
+
+    <!-- LOGIN FORM -->
+    <form id="loginForm" action="#" method="post">
+      <div>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="you@ferdresearch.com" required>
+      </div>
+
+      <div class="password-container">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="••••••••" required>
+        <button type="button" id="togglePassword">👁️</button>
+      </div>
+
+      <button type="submit" id="loginBtn">Sign In</button>
+      <p>
+        <a href="forgot_password.html">Forgot your password?</a>
+      </p>
+    </form>
+
+    <!-- SIGN UP BUTTON -->
+    <button type="button" id="signupBtn">Sign Up</button><br><br><br>
+
+    <!-- EXTRA LOGIN PAGE ACTIONS -->
+    <div class="login-actions">
+      <p>Give us a call: <a href="tel:+233553928957" >+233 553 928 957</a> / 
+      <a href="tel:+233531956359">+233 531 956 359</a></p>
+      <div class="social-follow">
+        <p>Follow us on:</p>
+        <a href="#" target="_blank">Facebook</a> |
+        <a href="#" target="_blank">Twitter</a> |
+        <a href="#" target="_blank">Instagram</a>
+      </div>
+    </div>
+
+    <div class="footer-text">
+      © 2026 FERD Research Consult. All rights reserved.
+    </div>
+  </div>
+
+  <!-- SIGN UP MODAL -->
+  <div id="signupModal">
+    <div class="modal-content">
+      <h2>Sign Up</h2>
+      <form id="signupForm">
+        <label for="preferredName">Preferred Name</label>
+        <input type="text" id="preferredName" name="preferredName" required>
+
+        <label for="fullname">Full Name (as on Student ID)</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="programme">Programme of Study</label>
+        <input type="text" id="programme" name="programme" required>
+
+        <label for="emailSignUp">Email</label>
+        <input type="email" id="emailSignUp" name="emailSignUp" required>
+
+        <div class="password-container">
+          <label for="passwordSignUp">Password</label>
+          <input type="password" id="passwordSignUp" name="passwordSignUp" required>
+          <button type="button" id="togglePasswordSignUp">👁️</button>
+        </div>
+
+        <div class="password-container">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" required>
+          <button type="button" id="toggleConfirmPassword">👁️</button>
+        </div>
+
+        <label for="authCode">Authentication Code</label>
+        <input type="text" id="authCode" name="authCode" placeholder="Check your email" required>
+
+        <button type="submit">Complete Sign Up</button>
+        <button type="button" id="closeModal">Cancel</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- LINK TO SCRIPT -->
+  <script src="script.js"></script>
+
+</body>
+</html>
