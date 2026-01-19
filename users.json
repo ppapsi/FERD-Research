@@ -1,0 +1,31 @@
+[
+  {
+    "email": "",
+    "password": "$2b$10$3kD6IbWe/omQ3Tl5XDIiYe.RT2rpgJcYOOPGy/oKGNnM0VjZeYqlm"
+  },
+  {
+    "email": "sammyankwama@gmail.com",
+    "password": "$2b$10$O4rrdN/CJ5fdOXj9OQlQMumzio0gWdgIjokLK7/To20u6dpphqAtC",
+    "preferredName": "Sammy"
+  },
+  {
+    "email": "papa123@gmail.com",
+    "password": "$2b$10$Quomt2hzhf1cWcvng4RVQe90grho7Xhg32LfTWO5NRco3on/9Q68K",
+    "preferredName": "Sammy"
+  },
+  {
+    "email": "mee123@gmail.com",
+    "password": "$2b$10$sIM6944GG8GBOUT2cHUaieEZ.9NpJpK42htITOdKea2S4HNqscOyS",
+    "preferredName": "papsi"
+  },
+  {
+    "email": "felixAkamah@gmail.com",
+    "password": "$2b$10$cyK7HoaviRy1cQnRQfNMNevgEsOxWHc1VUf6fc6v5naIMief0vogK",
+    "preferredName": "Felix"
+  },
+  {
+    "email": "samuelankamah204@gmail.com",
+    "password": "$2b$10$BUP72QTxn.mdLI.Crnbr0OXi9r2axMbRluvxty.6JixnveczcShd.",
+    "preferredName": "Samuel"
+  }
+]
